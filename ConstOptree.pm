@@ -17,7 +17,7 @@ B::ConstOptree - Optree constant folding for $^O, $^V, and $]
 
 =head1 SYNOPSIS
 
- $ perl -MO=ConstOptree -MO=Deparse} -e \
+ $ perl -MO=ConstOptree -MO=Deparse -e \
 	'require ($^O eq "MSWin32" ? "Win32.pm" : "POSIX.pm")'
  require 'POSIX.pm';
  -e syntax OK
